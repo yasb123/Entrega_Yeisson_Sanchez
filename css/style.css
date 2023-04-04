@@ -673,7 +673,7 @@ height: 100%;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  background-color: white;
+  background-color: white !important;
   width: 100%;
 }
 
