@@ -1,0 +1,76 @@
+// Articulos Nosotros
+
+.Nosotros-content {
+	width: 90%;
+	margin: 0 auto;
+	background-color: $background-color_8;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-gap: 20px;
+}
+.cajas-imgtext {
+	background-color: $background-color_8;
+	padding: 20px;
+	text-align: center;
+}
+.cajas-imgtext1 {
+	img {
+		width: 500px;
+		height: 500px;
+	}
+}
+.cajas-imgtext4 {
+	img {
+		width: 500px;
+		height: 500px;
+	}
+}
+.cajas-imgtext5 {
+	img {
+		width: 500px;
+		height: 500px;
+	}
+}
+.cajas-imgtext2 {
+	h1 {
+		font-family: $font-family_3;
+		font-size: 36px;
+		color: $color_6;
+		margin-bottom: 10px;
+	}
+	p {
+		text-align: justify;
+		font-family: $font-family_2;
+		font-size: 20px;
+		color: $color_6;
+	}
+}
+.cajas-imgtext3 {
+	h2 {
+		font-family: $font-family_3;
+		font-size: 36px;
+		color: $color_6;
+		margin-bottom: 10px;
+	}
+	p {
+		text-align: justify;
+		font-family: $font-family_2;
+		font-size: 20px;
+		color: $color_6;
+	}
+}
+.cajas-imgtext6 {
+	h2 {
+		font-family: $font-family_3;
+		font-size: 36px;
+		color: $color_6;
+		margin-bottom: 10px;
+	}
+	p {
+		text-align: justify;
+		font-family: $font-family_2;
+		font-size: 20px;
+		color: $color_6;
+	}
+}

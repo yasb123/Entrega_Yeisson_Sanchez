@@ -1,0 +1,222 @@
+* {
+	padding: 0;
+	margin: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+
+// Menu MADY'SB
+.Menu-cont {
+	@include menuPrincipal;
+}
+
+
+.logo {
+	img {
+		@include logoMenu
+	}
+}
+
+
+.menu {
+	@include menuLink;
+}
+
+
+
+.fab {
+	li {
+		i {
+			a {
+				&:hover {
+					color: $color_3;
+				}
+			}
+		}
+	}
+	transition: all 0.2s ease-in-out;
+	&:hover {
+		color: $color_2;
+	}
+}
+
+//Box Modeling
+
+.caja {
+	@include cajaTexto;
+}
+.whatsapp-btn {
+	i {
+		margin-left: 10px;
+	}
+	i.fab.fa-whatsapp {
+		font-size: 30px;
+		color: $color_5;
+		padding-right: 10px;
+	}
+	&:hover {
+		background-color: $background-color_3;
+	}
+}
+
+//Feed de Instagram
+
+.eui-widget-title.es-widget-title.eapps-instagram-feed-title {
+	color: $color_6 !important;
+	font-family: $font-family_1 !important;
+	font-size: 33px !important;
+	font-weight: bold !important;
+	margin-bottom: 30px !important;
+	margin-top: 31px !important;
+}
+
+//Texto e imágenes
+
+.conten-imgtext {
+	background-color: $background-color_1;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+}
+.titulo {
+	font-family: $font-family_1;
+	color: $color_1;
+	font-size: 36px;
+	margin-bottom: 50px;
+}
+.contenedor-columnas {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.columna {
+	@include tresColumnas;
+}
+
+//Google Maps
+
+.conten-map {
+	@include GoogleMaps;
+}
+
+//Formulario
+
+.formul-cont {
+	background-color: $background-color_5;
+	width: 100%;
+	padding: 50px 0;
+	text-align: center;
+	h2 {
+		font-family: $font-family_1;
+		color: $color_6;
+		font-size: 36px;
+		margin-bottom: 30px;
+	}
+}
+.formul-caja {
+	background-color: $background-color_1;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	width: 80%;
+	margin: 0 auto;
+	padding: 30px;
+}
+.formul {
+	width: 60%;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	text-align: left;
+}
+label {
+	font-family: $font-family_2;
+	color: $color_7;
+	font-size: 18px;
+	margin-bottom: 10px;
+	display: block;
+}
+input[type="text"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+}
+input[type="tel"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+}
+input[type="email"] {
+	padding: 10px;
+	margin-bottom: 20px;
+	width: 100%;
+	border-radius: 5px;
+	border: none;
+	font-size: 16px;
+}
+input[type="submit"] {
+	background-color: $background-color_5;
+	color: $color_6;
+	border: none;
+	border-radius: 5px;
+	font-size: 18px;
+	padding: 10px 20px;
+	cursor: pointer;
+	transition: background-color 0.3s ease;
+	&:hover {
+		background-color: $background-color_6;
+	}
+}
+.image {
+	width: 40%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		max-width: 100%;
+	}
+}
+
+//Footer
+
+.foot-cont {
+	background-color: $background-color_1;
+	width: 100%;
+	padding: 40px;
+	font-family: $font-family_1;
+	color: $color_4;
+	text-align: center;
+}
+.footer-titulo {
+	h2 {
+		color: $color_6;
+		font-family: $font-family_1;
+		font-size: 36px;
+		text-align: center;
+		margin-bottom: 20px;
+		padding-top: 20px;
+	}
+}
+.redes {
+	margin-top: 20px;
+	a {
+		display: inline-block;
+		margin: 0 10px;
+		color: $color_4;
+		font-size: 20px;
+	}
+}
+.footer {
+	p {
+		font-family: $font-family_2;
+		margin-top: 20px;
+		font-size: 14px;
+	}
+}

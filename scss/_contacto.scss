@@ -1,0 +1,146 @@
+//Otros Contacto
+
+.Formulario-Cont {
+	width: 100%;
+	background-color: $background-color_9;
+	margin-bottom: 20px;
+	width: 100%;
+	background-color: $background-color_8;
+	margin-bottom: 20px;
+}
+.form-container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: $background-color_1;
+	padding: 36px 20px 60px 20px;
+	margin-top: 46px;
+}
+.titulo_contacto {
+	text-align: center;
+	font-family: $font-family_3;
+	font-size: 36px;
+	color: $color_1;
+	margin-bottom: 20px;
+}
+.form {
+	display: flex;
+}
+.form-left {
+	width: 40%;
+	margin-right: 5%;
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 16px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	input {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+.form-right {
+	label {
+		display: block;
+		margin-bottom: 5px;
+		font-size: 16px;
+		font-family: $font-family_2;
+		color: $color_1;
+	}
+	width: 60%;
+	input {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		&:focus {
+			outline: none;
+		}
+	}
+	textarea {
+		display: block;
+		width: 100%;
+		margin-bottom: 10px;
+		padding: 10px;
+		border: none;
+		border-radius: 5px;
+		font-size: 16px;
+		height: 100px;
+		&:focus {
+			outline: none;
+		}
+	}
+}
+
+/*
+
+.form-buttons .enviar {
+
+	margin-top: 20px;
+	background-color: $background-color_9;
+	color: $color_6;
+	border: none;
+	border-radius: 5px;
+	padding: 10px 20px;
+	font-size: 16px;
+	margin-right: 10px;
+	cursor: pointer;
+		
+}
+
+.form-buttons .cancelar{
+	
+	@extend .enviar;
+	
+}
+
+*/
+
+.form-buttons button:hover{
+	background-color: $background-color_2;
+	color: $color_4;
+	border: 2px solid #2167B0;
+}
+
+
+
+
+
+.caja-contact {
+	width: 80%;
+	margin: 0 auto;
+	background-color: $background-color_8;
+	padding: 20px;
+	h2 {
+		color: $color_6;
+		margin-bottom: 40px;
+	}
+}
+.col-contact {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+}
+.imgcol-contact {
+	width: 30%;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.textcol-contact {
+	font-family: $font-family_2;
+	font-size: 16px;
+	margin-top: 10px;
+}

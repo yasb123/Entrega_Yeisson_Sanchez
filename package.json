@@ -1,0 +1,17 @@
+{
+  "name": "madysb",
+  "version": "1.0.0",
+  "description": "Segunda Pre entrega del curso de Desarrollo Web",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass",
+    "sass:watch": "sass --watch scss/main.scss  css/main.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.62.0"
+  },
+  "devDependencies": {}
+}

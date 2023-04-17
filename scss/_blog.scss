@@ -1,0 +1,47 @@
+//Blog Informativo
+
+.Blog-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color_4 !important;
+	width: 100%;
+}
+.titulo-blog1 {
+	font-family: $font-family_3;
+	font-size: 36px;
+	color: $color_6;
+	margin-top: 50px;
+}
+.blog-second {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: $background-color_4;
+	width: 80%;
+	padding: 20px;
+	margin-top: 50px;
+}
+.img-context {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	img {
+		width: 800px;
+		height: 200px;
+		object-fit: cover;
+		margin: auto;
+	}
+}
+.parrafo-blog1 {
+	font-family: $font-family_2;
+	font-size: 18px;
+	color: $color_6;
+	text-align: center;
+	margin-top: 20px;
+	&::first-letter {
+		text-transform: capitalize;
+	}
+}
