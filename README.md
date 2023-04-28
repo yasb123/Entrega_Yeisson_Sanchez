@@ -1,5 +1,9 @@
 # Entrega_Yeisson_Sanchez
-Tercera Pre entrega del curso de Desarrollo Web
-Terminación del sitio web
-HTLM completo con con Meta Keyword y Description
-SASS hecho por pagina con sus respectivas variables, mixin y extend
+Entrega final del curso de Desarrollo web Coderhouse
+Contiene los archivos:
+1. Wareframes del concepto del sitio web
+2. index.html con su respectiva carpeta de pages
+3. Carpeta CSS que contiene el archivo main.css
+4. Carpeta SCSS que contiene el archivo main.css y sus respectivas variables
+6. archivo gitignore 
+7. archivo README
